@@ -3,7 +3,11 @@ function carregar() {
     let img = document.querySelector('img#imagem')
     let dataAtual = new Date()
     let hora = dataAtual.getHours()
+    let diaAtual = document.querySelector('div#dia')
+    let dia = dataAtual.getDate()
 
+
+    diaAtual.innerHTML = `Hoje é dia ${dia}`
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if (hora >= 0 && hora < 12) {
