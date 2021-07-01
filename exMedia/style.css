@@ -1,0 +1,41 @@
+body {
+    background: #da4b4be3;
+    font: normal 14pt Arial;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form,
+input {
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: #dd2a2ae3;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #da4b4be3;
+}
+
+#resultado {
+    margin-top: 20px;
+}
