@@ -22,3 +22,12 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+.btn {
+    background: rgba(8, 117, 243, 0.685);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 6px;
+    box-shadow: 1px 1px 1px black;
+}
