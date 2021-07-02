@@ -5,9 +5,10 @@ function carregar() {
     let hora = dataAtual.getHours()
     let diaAtual = document.querySelector('div#dia')
     let dia = dataAtual.getDate()
+    let mes = dataAtual.getMonth() + 1
+    let ano = dataAtual.getFullYear()
 
-
-    diaAtual.innerHTML = `Hoje é dia ${dia}`
+    diaAtual.innerHTML = `Hoje é dia ${dia} do mês ${mes}, ano ${ano}`
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if (hora >= 0 && hora < 12) {
